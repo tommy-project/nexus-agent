@@ -506,5 +506,5 @@ agent = agents.Agent(
     description="NEXUS work agent for Tommy Wijaya: research, coding, data analysis, and writing.",
     instructions=INSTRUCTIONS,
     tools=[web_search],
-    environment=agents.MistralSandbox(),
+    environment=agents.NoSandbox(),
 )

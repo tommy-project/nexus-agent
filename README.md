@@ -4,7 +4,7 @@ Managed Agent for Tommy Wijaya (Tomm): research, coding, data analysis, and writ
 
 - Model: `mistral-medium-3-5`
 - Built-in web search: `web_search` tool wrapping the hosted `web_search` tool (Conversations API)
-- Code interpreter: `environment=agents.MistralSandbox()` (Python/shell in a Mistral-hosted container)
+- No sandbox (`environment=agents.NoSandbox()`): no code-interpreter sandbox; the worker identity has no Mistral Cloud sandbox access
 - No external connectors (no GitHub, Gmail, Drive, Notion)
 
 ## Run locally
